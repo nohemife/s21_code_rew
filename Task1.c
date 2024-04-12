@@ -2,19 +2,19 @@
 
 int main() {
   int n = 0;
-  printf("Введите размер матрицы: ");
+  // printf("Введите размер матрицы: ");
   scanf("%d", &n);
   if (n > 0) {
     int matrix_a[n][n];
     int matrix_b[n][n];
     int matrix_c[n][n];
-    printf("Введите числа матрицы A: \n");
+    // printf("Введите числа матрицы A: \n");
     for (int i = 0; i < n; i++) {
       for (int j = 0; j < n; j++) {
         scanf("%d", &(matrix_a[i][j]));
       }
     }
-    printf("Введите числа матрицы B: \n");
+    // printf("Введите числа матрицы B: \n");
     for (int i = 0; i < n; i++) {
       for (int j = 0; j < n; j++) {
         scanf("%d", &(matrix_b[i][j]));

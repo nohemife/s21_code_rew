@@ -5,7 +5,7 @@ int main() {
   int r = 0;
   int p = 21500;
   double pi = M_PI;
-  printf("Введите радиус шара: ");
+  // printf("Введите радиус шара: ");
   scanf("%d", &r);
 
   if (r >= 0) {
